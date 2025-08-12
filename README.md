@@ -34,7 +34,8 @@ Sau khi lưu thành công, hệ thống hiển thị thông báo "Thêm thành c
 
 Người dùng có thể truy cập /data để xem toàn bộ dữ liệu đã lưu
 
-🖼 Giao diện mẫu
+🖼 Giao diện mẫu:
+
 🔹 Form nhập dữ liệu
 <img width="1704" height="806" alt="image" src="https://github.com/user-attachments/assets/ecf31941-feb9-4305-a263-19e89de62d8b" />
 
