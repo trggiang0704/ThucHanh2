@@ -62,7 +62,11 @@ Xem dữ liệu: http://127.0.0.1:5001/data
 
 <img width="373" height="169" alt="image" src="https://github.com/user-attachments/assets/a57b4e32-6b83-4605-8e3f-1e2ebb3fda65" />
 
+
 📌 Ghi chú
+
 Có thể thay đổi port bằng:
+
 app.run(debug=True, port=5001)
+
 Nếu chạy trên nhiều cổng, hãy dùng đường dẫn tuyệt đối trong HTML để tránh lỗi điều hướng.
