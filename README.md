@@ -1,80 +1,88 @@
-Ứng dụng quản lý thông tin môi trường với Flask & Firebase
+Ứng dụng Quản Lý Thông Tin Môi Trường
+(Flask + Firebase Firestore)
+
 📌 Giới thiệu
-Ứng dụng web này giúp thu thập và quản lý thông tin môi trường (nhiệt độ, độ ẩm, áp suất...) và lưu trữ dữ liệu trên Firebase Firestore.
-Các chức năng chính bao gồm:
+Ứng dụng web giúp thu thập và quản lý thông tin môi trường (nhiệt độ, độ ẩm, áp suất...) và lưu trữ dữ liệu trên Firebase Firestore.
 
-Nhập dữ liệu môi trường từ form web
+Các chức năng chính:
 
-Lưu trữ dữ liệu vào Firebase Firestore
+📝 Nhập dữ liệu môi trường từ form web
 
-Xem toàn bộ lịch sử dữ liệu đã lưu
+☁ Lưu trữ dữ liệu vào Firebase Firestore
 
-Thông báo khi lưu dữ liệu thành công
+📄 Xem toàn bộ lịch sử dữ liệu đã lưu
 
-Ứng dụng phù hợp cho bài tập thực hành Flask kết nối Firebase.
+✅ Hiển thị thông báo khi lưu dữ liệu thành công
 
-🛠️ Công nghệ sử dụng
+Ứng dụng phù hợp để thực hành Flask kết nối Firebase.
+
+🛠 Công nghệ sử dụng
 Thành phần	Công nghệ
-Ngôn ngữ lập trình	Python 3
+Ngôn ngữ	Python 3
 Web Framework	Flask
-Cơ sở dữ liệu	Firebase Firestore
+CSDL	Firebase Firestore
 Thư viện Firebase	firebase-admin
 Frontend	HTML, CSS, Bootstrap 5
 Template Engine	Jinja2
 
 🧠 Cách hoạt động
-Người dùng nhập thông tin môi trường qua form web.
+Người dùng nhập thông tin môi trường qua form web
 
-Flask nhận dữ liệu, lưu vào collection weather_data trên Firestore.
+Flask nhận dữ liệu, lưu vào collection weather_data trên Firestore
 
-Sau khi lưu, hệ thống hiển thị thông báo "Thêm thành công".
+Sau khi lưu, hệ thống hiển thị thông báo "Thêm thành công"
 
-Người dùng có thể truy cập trang /data để xem toàn bộ dữ liệu đã lưu.
+Người dùng có thể truy cập /data để xem toàn bộ dữ liệu đã lưu
 
-🖼️ Một số giao diện
+🖼 Giao diện mẫu
 🔹 Form nhập dữ liệu
-(Thêm ảnh minh họa form nhập ở đây)
+(Chèn ảnh minh họa ở đây)
 
 🔹 Danh sách dữ liệu môi trường
-(Thêm ảnh minh họa bảng dữ liệu ở đây)
+(Chèn ảnh minh họa ở đây)
 
-🚀 Cài đặt và chạy ứng dụng
+🚀 Cài đặt & Chạy ứng dụng
 1️⃣ Cài đặt thư viện
 bash
 Sao chép
 Chỉnh sửa
 pip install flask firebase-admin
 2️⃣ Cấu hình Firebase
-Tạo project Firebase
+Tạo Project trên Firebase Console
 
 Tải file serviceAccountKey.json (Firebase Admin SDK)
 
-Đặt file này vào thư mục dự án và đổi tên theo cấu hình trong code (vd: env-management-31772-firebase-adminsdk.json)
+Đặt file vào thư mục dự án và đổi tên theo cấu hình trong code
+(ví dụ: env-management-31772-firebase-adminsdk.json)
 
 3️⃣ Chạy ứng dụng
 bash
 Sao chép
 Chỉnh sửa
 python app.py
-Ứng dụng mặc định chạy tại:
+Mặc định:
 
-less
-Sao chép
-Chỉnh sửa
 Form nhập dữ liệu: http://127.0.0.1:5000
+
 Xem dữ liệu: http://127.0.0.1:5001/data
+
 📂 Cấu trúc thư mục
-csharp
+plaintext
 Sao chép
 Chỉnh sửa
 📦 env-management
- ┣ 📜 app.py               # File Flask chính
+ ┣ 📜 app.py                # File Flask chính
  ┣ 📜 env-management-31772-firebase-adminsdk.json  # Key Firebase
  ┣ 📂 templates
- ┃ ┣ 📜 index.html         # Form nhập dữ liệu
- ┃ ┣ 📜 list.html          # Trang hiển thị danh sách dữ liệu
- ┣ 📂 static               # CSS, JS, hình ảnh
+ ┃ ┣ 📜 index.html          # Form nhập dữ liệu
+ ┃ ┣ 📜 list.html           # Trang hiển thị danh sách dữ liệu
+ ┣ 📂 static                # CSS, JS, hình ảnh
 📌 Ghi chú
-Có thể tùy chỉnh port Flask bằng app.run(debug=True, port=5001)
+Có thể thay đổi port bằng:
 
-Nếu chạy nhiều cổng, cần cấu hình liên kết đường dẫn tuyệt đối trong HTML để điều hướng đúng port.
+python
+Sao chép
+Chỉnh sửa
+app.run(debug=True, port=5001)
+Nếu chạy nhiều cổng, hãy sử dụng đường dẫn tuyệt đối trong HTML để điều hướng đúng port.
+
