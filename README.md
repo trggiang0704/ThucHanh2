@@ -36,10 +36,10 @@ Người dùng có thể truy cập /data để xem toàn bộ dữ liệu đã 
 
 🖼 Giao diện mẫu
 🔹 Form nhập dữ liệu
-<img width="1370" height="808" alt="image" src="https://github.com/user-attachments/assets/a3b2a47b-6d5d-4b29-92b2-ead0d94fc6f0" />
+<img width="1704" height="806" alt="image" src="https://github.com/user-attachments/assets/ecf31941-feb9-4305-a263-19e89de62d8b" />
 
 🔹 Danh sách dữ liệu môi trường
-<img width="1458" height="626" alt="image" src="https://github.com/user-attachments/assets/ddc3ea93-caf4-425b-85ac-7a7a46a37d1e" />
+<img width="1536" height="442" alt="image" src="https://github.com/user-attachments/assets/3dc64d7c-3693-4527-a4b3-19c3287fcbc9" />
 
 🚀 Cài đặt & Chạy ứng dụng
 1️⃣ Cài đặt thư viện
