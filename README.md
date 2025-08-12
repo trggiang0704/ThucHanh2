@@ -1,4 +1,4 @@
- Ứng dụng Quản Lý Thông Tin Môi Trường
+# Ứng dụng Quản Lý Thông Tin Môi Trường
 (Flask + Firebase Firestore)
 
 📌 Giới thiệu
