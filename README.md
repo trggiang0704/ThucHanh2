@@ -39,7 +39,7 @@ Người dùng có thể truy cập /data để xem toàn bộ dữ liệu đã 
 <img width="1704" height="806" alt="image" src="https://github.com/user-attachments/assets/ecf31941-feb9-4305-a263-19e89de62d8b" />
 
 🔹 Danh sách dữ liệu môi trường
-<img width="1536" height="442" alt="image" src="https://github.com/user-attachments/assets/3dc64d7c-3693-4527-a4b3-19c3287fcbc9" />
+<img width="1435" height="533" alt="image" src="https://github.com/user-attachments/assets/57d023c2-8fdb-4ada-b510-5b300e4a758e" />
 
 🚀 Cài đặt & Chạy ứng dụng
 1️⃣ Cài đặt thư viện
