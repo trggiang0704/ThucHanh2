@@ -45,13 +45,16 @@ Người dùng có thể truy cập /data để xem toàn bộ dữ liệu đã 
 <img width="1435" height="533" alt="image" src="https://github.com/user-attachments/assets/57d023c2-8fdb-4ada-b510-5b300e4a758e" />
 
 🚀 Cài đặt & Chạy ứng dụng
+
 1️⃣ Cài đặt thư viện
 pip install flask firebase-admin
+
 2️⃣ Cấu hình Firebase
 Tạo Project trên Firebase Console
 Tải file serviceAccountKey.json (Firebase Admin SDK)
 Đặt file vào thư mục dự án và đổi tên theo cấu hình trong code
 (ví dụ: env-management-31772-firebase-adminsdk.json)
+
 3️⃣ Chạy ứng dụng
 python app.py
 Mặc định:
