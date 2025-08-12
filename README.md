@@ -56,12 +56,12 @@ Form nhập dữ liệu: http://127.0.0.1:5000
 Xem dữ liệu: http://127.0.0.1:5001/data
 
 📂 Cấu trúc thư mục
-📦 env-management
- ┣ 📜 app.py                                # File Flask chính
+📂 env-management
+ ┣ 📜 app.py                                 # File Flask chính
  ┣ 📜 env-management-31772-firebase-adminsdk.json   # Key Firebase
  ┣ 📂 templates
- ┃ ┣ 📜 index.html                          # Form nhập dữ liệu
- ┃ ┣ 📜 list.html                           # Trang hiển thị danh sách dữ liệu
+ ┃ ┣ 📜 index.html                           # Form nhập dữ liệu
+ ┃ ┣ 📜 list.html                            # Trang hiển thị danh sách dữ liệu
 
 📌 Ghi chú
 Có thể thay đổi port bằng:
